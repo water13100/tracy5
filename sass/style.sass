@@ -1,0 +1,146 @@
+$color_white: #fff9f5
+$color_black: #493f3a
+
+//顏色定義
+*
+  // border: solid 1px
+  font-family: "Lato", "sans-serif","微軟正黑體"
+  line-height: 25px
+  position: relative
+//------
+@mixin ab_center
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translateX(50%) translateY(50%)
+
+@mixin size($h,$w)
+  height: $h
+  width: $w
+//---------
+
+html,body
+  background-color: $color-white
+  overflow-x: hidden
+  font-size: 12px
+  color: $color_black
+.navbar
+  margin: 0px
+header
+  height: 100vh
+  background-position: center
+  background-size: cover
+  .container
+    margin-top: 200px
+    // margin-bottom: 100px
+    h2
+      // font-size: 50px
+      letter-spacing: 5px
+      color: $color_white
+    p 
+      font-size: 14px
+      display: inline-block
+      float: right
+      color: $color_white
+.jumbotron
+  margin: 0px
+  background-image: url("https://lh3.googleusercontent.com/iauPp1robUA8aQBVQO_ClOq7uJwkF4Rhn0fdkVqa0GhHgKcl8QW6xJCYQMTpbsrwJlpF6-F75yE5VIqNrwFnRYHiRFEXiYXrifWwkVlRDgG0f8rbYvf6tfg6v21QME3OKofbFU6oe01cxAysS0aGQFstOCvIg6aKEQaiCWnsDuyPyNFXnsRhtYIYuD7Q6cXpmoAM00I6glfVNCZ5h8pqJCukZojU3znUG26TuGYEcVdUnaBR647fASIQI-pVvl8x-JLUrLB2OrRBfTopzjJV3PYRfNyr1pWZlU4eiuTaH8YKrd6AwRSLIS9VKMRBZiQ2eGNcEy-srF3PdBbzya1t7G9GUBaLcBGK2dIbSOzByL8J-o7ILCY5FkHkVDsBzkEmNnG2mHxfyqYS8Yc2ojL-7ex8rPYWwkw_0I5qeElHvHq20EgH1eGlKNOU5fCP2mgeVzPoQYaD88lmizMN0BB0zEgS7Bdn1_CNIV-DGYOtuzSchLsZywzwHupihBZlM5J5EsPSglqxNVtlckR8V6FP8_HCS6Q0zjGPBZ6g-11qqlbSyoTerEP4t2XTV5qd1gjs0oRArWrt2x0Y2G4GNw6efmxAF773i_P0zD3Ruww=w1440-h805-no")
+  background-position: center
+#section_1
+  
+  height: 100hv
+  padding-top: 100px 
+  .container
+    
+    .col-sm-3
+      
+      .people
+        width: 150%
+        top: 60px
+    .col-sm-6
+      padding-top: 40px
+      .pig
+        width: 55%
+        left: 80px
+        top: 10px
+    .col-sm-3  
+      .bear
+        
+        width: 150%
+        
+        left: -80px
+      .deer
+        width: 100%
+        left: -100px
+        
+#section_2
+  
+  // height: 100vh
+  padding-top: 100px  
+  background-color: $color-black
+  .tree
+    position: relative
+    left: -100px
+    bottom: -70px
+    width: 150%
+  p
+    padding-top: 50px
+    color: $color-white
+// .black_2
+//     position: relative
+//     top: -800px
+
+  
+#section_3
+  
+  height: 815px
+  padding-top: 130px  
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  background-image: url("https://lh3.googleusercontent.com/pRX2dsyfcLbVw_N4cj1_zf13JjgsjFUlrj1YaQHhmWHuyg0Ytq9ZPOnhDM-Pfre4yp6kSnY_XvxWyTV3QuAciFtGHhOs3IVSak-MOhsPTRUyCL-CpZbS_BQnd0C26w0RxL2UBMItUa_SXrmVplT0nn5-FJjX1Jt-RoK95seVymDcZa9_4qGk2aBLevSMOFI2XdQmc99LUfk5Erq1sJm_PQ5H2erJ_df32lIMERnn6t5PJL5HBTUXgY2yTjTbBzILAOrt_9UdqeSd1mKP0QQTOJYt7HRIoNLc9NkiktgloARD8dqP5lDn5AnxUr86CwuKdirraVCPuu2QHBc6r_XJhPOjyZ5oHRpPcfvpXFleNts49xMI2lXjJDog0fHxUaLnMZR6gJ1G9ErSgrA6E2RdbJMD-IBihuLTwQx32e_ZEKTC35yd0O4juiRtZUDncV2WSzKy4G0FxEkbeGskvHMgF9lGe6oj6RU_8zGq05k1ABTpdRranjxE9RSx5f2gJY_G79xM2coFqNXeDd8Nn61Q_UfibdcGM5MrhoWwdZV02kHkKImpUEQqU4-BcHMw67xHg-KDWPsZclRRsQ8gv_aO9MzuM6F403odJI1VpMI=w1032-h781-no")
+  .container
+    margin-bottom: 30px
+  p
+    color: $color_white
+    
+  .water
+    position: relative
+    top: -280px
+      
+#section_4
+  
+  height: 100vh 
+  background-color: #363638
+  p
+    color: $color_white
+  .bird 
+    left: 800px
+    bottom: 1800px
+    width: 30%
+
+  .stone
+    
+    width: 80%
+    bottom: 500px
+    left: 400px
+  
+.cricle
+  
+  top: -300px
+  height: 500px
+  width: 100%
+  background-color: $color_white
+  border-radius: 50% 50% 0% 0%    
+  .fish
+    width: 70%
+      
+#section_5
+  height: 100vh
+  padding-top: 250px    
+#section_6
+  height: 100vh
+  padding-top: 250px      
+#section_7
+  height: 100vh
+  padding-top: 250px      

@@ -1,0 +1,306 @@
+@charset "UTF-8";
+@import url("reset.css");
+* {
+  border: solid 1px;
+  font-family: "Lato", "sans-serif", "微軟正黑體";
+  line-height: 25px;
+  box-sizing:border-box;
+  position: relative;
+}
+
+html, body {
+  background-color: #fff9f5;
+  overflow-x: hidden;
+  font-size: 15px;
+  color: #493f3a;
+}
+
+.navbar {
+  margin: 0px;
+}
+section { 
+  height:100vh; 
+}
+header {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+header .container {
+  margin-top: 280px;
+}
+header .container h2 {
+  padding-top: 100px;
+  font-size: 80px
+  font-weight: blod;
+  letter-spacing: 5px;
+  color: #fff9f5;
+}
+header .container p {
+  font-size: 16px;
+  display: inline-block;
+  float: right;
+  color: #fff9f5;
+}
+.container {
+  height: 100%;
+}
+.row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+/* .col{
+  height: 100%;
+} */
+
+.jumbotron {
+  margin: 0px;
+  background-image: url("https://i.imgur.com/M32EkRn.jpg");
+ 
+  background-position: center;
+  background-size: cover;
+}
+
+#section_1 {
+  height: 100vh;
+}
+#section_1 .container {  
+ }
+#section_1 .container .col-sm-3 .people {
+  width: 150%;
+  /* top: 50%;
+  transform: translateY(50%); */
+  left: -20px;
+}
+#section_1 .container .col-sm-6 {
+  /* padding-top: 40px; */
+}
+#section_1 .container .col-sm-6 .pig {
+  width: 30%;
+  left: 50%;
+  top: 10px;
+}
+#section_1 .container .col-sm-3 .bear {
+  width: 150%;
+  left: -80px;
+}
+#section_1 .container .col-sm-3 .deer {
+  width: 100%;
+  left: -100px;
+}
+
+#section_2 {
+  padding-top: 100px;
+  background-color: #493f3a;
+}
+#section_2 .tree {
+  position: relative;
+  left: -25%;
+  bottom: -300px;
+  width: 180%;
+}
+#section_2 p {
+  position: absolute;
+  top: -300px;
+  color: #fff9f5;
+}
+
+#section_2 .water1{
+  position: absolute;
+  width: 1920px;
+  opacity: 0.5;
+  z-index:1;
+  bottom: -500px;
+  /* transform: translateX(100px) ; */
+  
+  animation-duration: 2s;
+  animation-name: move;
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes move{  
+
+  0% {
+      bottom: 0px;
+  }
+  50% {
+      bottom: 40px;
+  }
+  100% {
+      bottom: 0px;
+  }
+}
+
+#section_3 {
+
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url("https://i.imgur.com/XPH4OYo.jpg"); */
+  background-image: url("../images/background_16.jpg");
+}
+#section_3 .container {
+ 
+}
+#section_3 p {
+ background-color: rgba(0,0,0,0.4);
+ padding: 20px;
+  color: #fff9f5;
+}
+#section_3 .water {
+  position: absolute;
+  width: 100%;
+  transform: translateY(-70%);
+}
+
+
+
+#section_3 .bird {
+  width: 120%;
+  z-index: 2;
+
+}
+#section_4 {
+  height: 500px;
+  background-color: #3b3635;
+}
+#section_4 p {
+ 
+  color: #fff9f5;
+}
+
+
+#section_4 .stone {
+  position: absolute;
+ left: 0px;
+
+
+   z-index: 0;
+  
+
+}
+
+
+#section_5 {
+  height: 100vh;
+  background-color: #a0a1a2;
+  /* cursor: url("https://i.imgur.com/0Vn77ZY.png"),auto; */
+  
+}
+
+#section_5 .cricle {
+  position: absolute;
+  top: -60%;
+  height: 100%;
+  width: 100%;
+  background-color: #a0a1a2;
+  border-radius: 50% 50% 20% 20% ;
+  z-index: 1;
+   cursor: url("https://i.imgur.com/0Vn77ZY.png"),auto;
+
+ 
+
+}
+
+
+#section_5 .cricle #fish {
+
+  width: 700px;
+ 
+ /* cursor: url("https://i.imgur.com/4Flblkg.png"),auto; */
+
+
+
+}
+#section_5 .cricle #fish img {
+ 
+ width: 100%;
+
+  
+}
+#section_5 p {
+  z-index: 2;
+
+
+}
+#section_5 .crab {
+  width: 100%;
+  z-index: 2;
+
+}
+#section_6 {
+  background-color: #a0a1a2;
+  padding-bottom: 300px;
+
+}
+
+.png {
+
+}
+
+#section_6 p {
+  background-color: rgba(0,0,0,0.4);
+ padding: 20px;
+  color: #fff9f5;
+  z-index: 2;
+
+}
+
+#section_6 .crab2{
+  position: absolute;
+   transform: translateX(-15%);
+   top: 300px;
+  width: 100%;
+  z-index: 2;
+}
+#section_6 .fish2 {
+  position: absolute;
+  transform: translateX(-30%);
+  width: 130%;
+  top: 150px;
+  z-index: 2;
+  animation-delay: 3s;
+}
+#section_6 .sea{
+  transform: translateY(-50%);
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+
+
+}
+
+#section_7 {
+ 
+ background-image: url("https://i.imgur.com/Q4P5MIT.jpg");
+ background-position: center;
+ background-size: cover;
+ height: 800px;
+  
+}
+#section_7 .women{
+  width: 90%;
+  z-index: 1;
+
+}
+#section_7 p {
+  padding: 30px;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 20px, 20px, 20px;
+  z-index: 1;
+
+}
+
+
+#section_7 .footer{
+bottom: -5%;
+position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
